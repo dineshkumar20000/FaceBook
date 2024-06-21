@@ -1,0 +1,10 @@
+#Update QA URL
+#Fri Jun 21 00:22:05 IST 2024
+password=password
+file=C\:\\Users\\DINESH KUMAR\\eclipse-workspace\\FaceBook\\src\\test\\resources\\FeatureFiles\\Utilities.property
+urlQa=https\://www.redbus.in.qa
+env1=uat
+env=qa
+Key=value
+url=https\://www.facebook.com
+username=Dinesh

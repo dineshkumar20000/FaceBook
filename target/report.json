@@ -1,0 +1,434 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Application Launch",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4973826900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser and appilication \"https://www.facebook.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com\"",
+                  "offset": 36
+                }
+              ],
+              "location": "facebook.com.facebookLogin.launch_the_browser_and_appilication(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-20T18:51:38.767Z",
+        "line": 21,
+        "name": "Creat a facebook in facebook application",
+        "description": "",
+        "id": "facebook;creat-a-facebook-in-facebook-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 298459800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "in.facebook.Hooks.Hooks.closeApplication()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 85642700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on create new account",
+            "match": {
+              "location": "facebook.com.facebookLogin.user_click_on_create_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5075371700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters the value in First name \"Dinesh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dinesh\"",
+                  "offset": 36
+                }
+              ],
+              "location": "facebook.com.facebookLogin.user_enters_the_value_in_First_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5083248500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters the value in surname \"Kumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 33
+                }
+              ],
+              "location": "facebook.com.facebookLogin.user_enters_the_value_in_surname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5036487100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters the value in mobile number or email address \"8888888888\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8888888888\"",
+                  "offset": 56
+                }
+              ],
+              "location": "facebook.com.facebookLogin.user_enters_the_value_in_mobile_number_or_email_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5059823600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters a new Password \"Dinesh@2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dinesh@2\"",
+                  "offset": 27
+                }
+              ],
+              "location": "facebook.com.facebookLogin.user_enters_a_new_Password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153165400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User selects a Date of birth \"7\" \"Sep\" \"2000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Sep\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2000\"",
+                  "offset": 39
+                }
+              ],
+              "location": "facebook.com.facebookLogin.user_selects_a_Date_of_birth(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 305305300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on Gender \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 22
+                }
+              ],
+              "location": "facebook.com.facebookLogin.user_clicks_on_Gender(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137859800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on Sign up",
+            "match": {
+              "location": "facebook.com.facebookLogin.user_clicks_on_Sign_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193976900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User TakeScreenShot",
+            "match": {
+              "location": "facebook.com.facebookLogin.user_TakeScreenShot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@facebook"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Application Launch",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2425472700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser and appilication \"https://www.facebook.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com\"",
+                  "offset": 36
+                }
+              ],
+              "location": "facebook.com.facebookLogin.launch_the_browser_and_appilication(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-20T18:52:05.291Z",
+        "line": 22,
+        "name": "Creat a facebook in facebook application",
+        "description": "",
+        "id": "facebook;creat-a-facebook-in-facebook-application;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 231982900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "in.facebook.Hooks.Hooks.closeApplication()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 117605300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on create new account",
+            "match": {
+              "location": "facebook.com.facebookLogin.user_click_on_create_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5226573400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters the value in First name \"Kumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 36
+                }
+              ],
+              "location": "facebook.com.facebookLogin.user_enters_the_value_in_First_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5081053700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters the value in surname \"Dinesh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dinesh\"",
+                  "offset": 33
+                }
+              ],
+              "location": "facebook.com.facebookLogin.user_enters_the_value_in_surname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5089547500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters the value in mobile number or email address \"9876543211\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9876543211\"",
+                  "offset": 56
+                }
+              ],
+              "location": "facebook.com.facebookLogin.user_enters_the_value_in_mobile_number_or_email_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5071853300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters a new Password \"Kumar@2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kumar@2\"",
+                  "offset": 27
+                }
+              ],
+              "location": "facebook.com.facebookLogin.user_enters_a_new_Password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186002100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User selects a Date of birth \"8\" \"Sep\" \"1999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Sep\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"1999\"",
+                  "offset": 39
+                }
+              ],
+              "location": "facebook.com.facebookLogin.user_selects_a_Date_of_birth(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 282771000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on Gender \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 22
+                }
+              ],
+              "location": "facebook.com.facebookLogin.user_clicks_on_Gender(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194578900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on Sign up",
+            "match": {
+              "location": "facebook.com.facebookLogin.user_clicks_on_Sign_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161002700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User TakeScreenShot",
+            "match": {
+              "location": "facebook.com.facebookLogin.user_TakeScreenShot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@facebook"
+          }
+        ]
+      }
+    ],
+    "name": "FaceBook",
+    "description": "",
+    "id": "facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/facebook.feature",
+    "tags": [
+      {
+        "name": "@facebook",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
